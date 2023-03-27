@@ -1,1 +1,16 @@
-# path-finding-visualizer
+### Path Finding Visualizer
+Available here: [bfs-dfs.netlify.app](https://bfs-dfs.netlify.app/ "bfs-dfs.netlify.app") 👈
+
+This is a simple 2D website which can visualize different path finding algorithms. It uses [p5.js](https://p5js.org/ "p5.js") library for visuals and animations. You can use built-in json input field to change:
+- Number of nodes
+- Edges between nodes
+- Start and end nodes
+- Max depth (for Depth-first search)
+- Animation speed
+
+### Algorithms available
+- Depth-First Search (DFS) ❎ Does not guerantee the optimal path. Unweighted.
+- Breadth-First Search (BFS) ✅ - Guerantees the optimal path. Unweighted.
+
+### Check it out 👇
+[bfs-dfs.netlify.app](https://bfs-dfs.netlify.app/ "bfs-dfs.netlify.app")
