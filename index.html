@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <main></main>
+    <button id="dfs-btn">Run DFS</button>
+    <button id="bfs-btn">Run BFS</button>
+    <a href=""></a>
+    <textarea name="json-input" id="json-input" cols="30" rows="10">
+{
+    "start":0,
+    "end":18,
+    "maxDepth":99,
+    "delay":100,
+    "nodes":[
+        {"x":200,"y":300},
+        {"x":376,"y":333},
+        {"x":444,"y":455},
+        {"x":444,"y":156},
+        {"x":225,"y":548},
+        {"x":674,"y":437},
+        {"x":657,"y":236},
+        {"x":797,"y":496},
+        {"x":857,"y":256},
+        {"x":457,"y":646},
+        {"x":757,"y":636},
+        {"x":917,"y":546},
+        {"x":947,"y":446},
+        {"x":157,"y":646},
+        {"x":857,"y":676},
+        {"x":957,"y":126},
+        {"x":1057,"y":326},
+        {"x":77,"y":226},
+        {"x":1077,"y":626}
+    ],
+    "edges":[
+        {"from":0,"to":3},
+        {"from":1,"to":3},
+        {"from":1,"to":2},
+        {"from":1,"to":6},
+        {"from":6,"to":5},
+        {"from":0,"to":4},
+        {"from":6,"to":8},
+        {"from":8,"to":7},
+        {"from":4,"to":9},
+        {"from":9,"to":7},
+        {"from":3,"to":6},
+        {"from":9,"to":10},
+        {"from":10,"to":11},
+        {"from":11,"to":12},
+        {"from":4,"to":13},
+        {"from":10,"to":14},
+        {"from":8,"to":15},
+        {"from":3,"to":15},
+        {"from":8,"to":16},
+        {"from":0,"to":17},
+        {"from":14,"to":18},
+        {"from":11,"to":18}
+    ]
+}
+     </textarea
+    >
+    <script src="main.js"></script>
+  </body>
+</html>
