@@ -14,3 +14,5 @@ This is a simple 2D website which can visualize different path finding algorithm
 
 ### Check it out 👇
 [bfs-dfs.netlify.app](https://bfs-dfs.netlify.app/ "bfs-dfs.netlify.app")
+
+![action](https://user-images.githubusercontent.com/90870594/228005355-62b08a98-eade-4511-b5b5-abecfb857723.gif)
