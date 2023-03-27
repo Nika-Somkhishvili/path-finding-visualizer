@@ -47,3 +47,11 @@ button{
 #dfs-btn{
     left: 15px;
 }
+a{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+img{
+    width: 100px;
+}
